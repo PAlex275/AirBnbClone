@@ -1,0 +1,147 @@
+//
+//  DeveloperPreview.swift
+//  AirBnbClone
+//
+//  Created by Alex Petrisor on 16.04.2024.
+//
+
+import Foundation
+
+class DeveloperPreview {
+    static let shared = DeveloperPreview()
+    
+    var listings: [Listing] = [
+        .init(
+            id: NSUUID().uuidString,
+            ownerUid: NSUUID().uuidString,
+            ownerName: "John Smith",
+            ownerImageUrl: "person",
+            numberOfBedrooms: 4,
+            numberOfBathrooms: 3,
+            numberOfGuests: 4,
+            numberOfBeds: 4,
+            pricePerNight: 567,
+            latitude: 25.7850,
+            longitude: -80.1936,
+            imageURLs: ["listing-2","listing-3","listing-1"],
+            address: "124 Main St",
+            city: "Miami",
+            state: "Florida",
+            title: "Miami Villa",
+            rating: 4.86,
+            features: [.selfCheckIn,.superHost],
+            amenities: [.wifi,.alarmSystem,.balcony, .laundry, .tv],
+            type:.villa
+        ),
+        .init(
+            id: NSUUID().uuidString,
+            ownerUid: NSUUID().uuidString,
+            ownerName: "John Smith",
+            ownerImageUrl: "person",
+            numberOfBedrooms: 4,
+            numberOfBathrooms: 3,
+            numberOfGuests: 4,
+            numberOfBeds: 4,
+            pricePerNight: 567,
+            latitude: 25.7850,
+            longitude: -80.1936,
+            imageURLs: ["listing-3","listing-2","listing-4"],
+            address: "124 Main St",
+            city: "Miami",
+            state: "Florida",
+            title: "Miami Villa",
+            rating: 4.55,
+            features: [.selfCheckIn,.superHost],
+            amenities: [.wifi,.alarmSystem,.balcony, .laundry, .tv],
+            type:.villa
+        ),
+        .init(
+            id: NSUUID().uuidString,
+            ownerUid: NSUUID().uuidString,
+            ownerName: "Derek Ray",
+            ownerImageUrl: "person",
+            numberOfBedrooms: 4,
+            numberOfBathrooms: 3,
+            numberOfGuests: 4,
+            numberOfBeds: 4,
+            pricePerNight: 747,
+            latitude: 25.7850,
+            longitude: -80.1936,
+            imageURLs: ["listing-5","listing-2","listing-3"],
+            address: "124 Main St",
+            city: "Los Angeles",
+            state: "California",
+            title: "LA Villa",
+            rating: 4.89,
+            features: [.selfCheckIn,.superHost],
+            amenities: [.wifi,.alarmSystem,.balcony, .laundry, .tv],
+            type:.villa
+        ),
+        .init(
+            id: NSUUID().uuidString,
+            ownerUid: NSUUID().uuidString,
+            ownerName: "Joe Richard",
+            ownerImageUrl: "person",
+            numberOfBedrooms: 4,
+            numberOfBathrooms: 3,
+            numberOfGuests: 4,
+            numberOfBeds: 4,
+            pricePerNight: 598,
+            latitude: 25.7850,
+            longitude: -80.1936,
+            imageURLs: ["listing-6","listing-8","listing-7"],
+            address: "124 Main St",
+            city: "Los Angeles",
+            state: "California",
+            title: "LCA Villa",
+            rating: 4.68,
+            features: [.selfCheckIn,.superHost],
+            amenities: [.wifi,.alarmSystem,.balcony, .laundry, .tv],
+            type:.villa
+        ),
+        .init(
+            id: NSUUID().uuidString,
+            ownerUid: NSUUID().uuidString,
+            ownerName: "Samuel Ray",
+            ownerImageUrl: "person",
+            numberOfBedrooms: 4,
+            numberOfBathrooms: 3,
+            numberOfGuests: 4,
+            numberOfBeds: 4,
+            pricePerNight: 407,
+            latitude: 25.7850,
+            longitude: -80.1936,
+            imageURLs: ["listing-8","listing-2","listing-1"],
+            address: "124 Main St",
+            city: "Miami",
+            state: "Florida",
+            title: "Miami Villa",
+            rating: 4.86,
+            features: [.selfCheckIn,.superHost],
+            amenities: [.wifi,.alarmSystem,.balcony, .laundry, .tv],
+            type:.villa
+        ),
+        .init(
+            id: NSUUID().uuidString,
+            ownerUid: NSUUID().uuidString,
+            ownerName: "Jeremy Alder",
+            ownerImageUrl: "person",
+            numberOfBedrooms: 4,
+            numberOfBathrooms: 3,
+            numberOfGuests: 4,
+            numberOfBeds: 4,
+            pricePerNight: 987,
+            latitude: 25.7850,
+            longitude: -80.1936,
+            imageURLs: ["listing-7","listing-4","listing-5"],
+            address: "124 Main St",
+            city: "Miami",
+            state: "Florida",
+            title: "Miami Villa",
+            rating: 4.45,
+            features: [.selfCheckIn,.superHost],
+            amenities: [.wifi,.alarmSystem,.balcony, .laundry, .tv],
+            type:.villa
+        )
+    ]
+}
